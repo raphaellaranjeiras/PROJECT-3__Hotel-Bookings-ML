@@ -46,3 +46,8 @@
 - *total_of_special_requests* - Número de pedidos especiais feitos pelo cliente (por exemplo, cama de solteiro ou andar alto).
 - *reservation_status* - Último status da reserva. Canceled (Reserva cancelada pelo cliente), Check-Out (O cliente fez check-in mas já partiu) e No-Show (O cliente não fez check-in e informou o hotel sobre o motivo).
 - *reservation_status_date* - Data em que o último status da reserva foi estabelecido.
+
+
+## 💡 Sinta-se livre para contribuir de qualquer forma: correções, sugestões, novos insights, qualquer coisa é muito bem vindo! 
+
+## Valeu! ✌️
