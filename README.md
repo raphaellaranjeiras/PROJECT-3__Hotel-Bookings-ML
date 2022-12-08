@@ -48,4 +48,4 @@
 - *reservation_status_date* - Data em que o último status da reserva foi estabelecido.
 
 ---
-#### 💡 Sinta-se livre para contribuir: correções, sugestões, novos insights, muito bem vindo! Valeu! :smiley:
+#### 💡 Sinta-se livre para contribuir: correções, sugestões, novos insights, muito bem vindos! Valeu! :smiley:
