@@ -1,4 +1,4 @@
-![](hotel/hotel.png)
+![](hotel.png)
 
 # Projeto 2: Hotel Bookings
   O conjunto de dados foi tirado do Kaggle e pode ser acessado [aqui](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand). 
@@ -10,9 +10,9 @@
 - **Estadia**: Quantidade de dia(s)/tempo que se passou no hotel.
 - O objetivo foi realizar uma **análise exploratória** em busca de insights capazes de gerar familiarização com os dados e também construir um **modelo** de machine learning capaz de **prever se a reserva será cancelada ou não**.
 - A análise exploratória foi divida em 3 partes. Os respectivos comentários pertinentes estão presentes nos respectivos notebooks. 
-- As considerações, insights e comentários do processo de Machine Learning foi todo explicado em um único notebook específico chamado **Hotel Bookings - 0. Parte IV ML- MACHINELEARNING_PROCESS**. Os notebooks posteriores (relacionados ao processo de machine learning) são compostos apenas de código. 
+- As **considerações, insights e comentários do processo de Machine Learning** foi todo explicado em um único **notebook específico** chamado **Hotel Bookings - 0. Parte IV ML- MACHINELEARNING_PROCESS**. Os notebooks posteriores (relacionados ao processo de machine learning) são compostos apenas de código. 
 
-#### Variáveis presentes:
+### Variáveis presentes:
 
 - *hotel* - Tipo do hotel (Hotel da Cidade ou Resort).
 - *is_canceled* - Status da Reserva, se a mesma foi cancelada ou não. 0 -> Não cancelada, 1 -> Cancelada.
