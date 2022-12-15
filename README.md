@@ -1,28 +1,22 @@
 ![](hotel.png)
 
-# Projeto 2: Hotel Bookings
+# Projeto 3: Hotel Bookings - Machine Learning
   O conjunto de dados foi tirado do Kaggle e pode ser acessado [aqui](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand). 
   
   ## Informações
 - O conjunto de dados fala sobre as reservas de hotéis de dois tipos ao longo do tempo, sua composição e o status da reserva.
-- O Data Set cobre o **período** de **julho de 2015** até **agosto de 2017**.
-- **Reservas bem sucedidas**: Marcação e chegada no hotel.
-- **Estadia**: Quantidade de dia(s)/tempo que se passou no hotel.
-- O **objetivo** desse **projeto** pode ser **dividido** em **duas partes**:
-  - **Análise exploratória extensa**: Maior entendimento do comportamento e características dos clientes, para que dessa forma possa favorecer a implementação de melhorias na oferta do serviço e no planejamento da administração. Familiarização com os dados para futura implementação de um modelo de machine learning.
-    - A análise exploratória foi divida em 3 partes. Os respectivos **comentários** pertinentes estão presentes nos **respectivos notebooks**. 
-  - **Criação e comparação de Modelos de Machine Learning**: Criação de um modelo de machine learning capaz de prever o cancelamento ou não de reservas de hotel. Informação crucial para a administração dos hotéis, facilitando o planejamento das estadias e consequente melhoria da oferta dos serviços além de garantir uma maior segurança no planejamento financeiro.
-  - Todas as **considerações, insights e comentários do processo de Machine Learning** pode ser encontrado no **notebook específico** (em markdown) chamado **Hotel Bookings - 0. Parte IV ML- MACHINELEARNING_PROCESS**. Os notebooks posteriores (relacionados ao processo de machine learning) são compostos apenas de código.
-  - **TL;DR**:
+- **O corrente projeto é uma extensão/continuação do projeto** [PROJECT-2__Hotel-Bookings-EDA](https://github.com/raphaellaranjeiras/PROJECT-2__Hotel-Bookings-EDA). Portanto, para mais informações a respeito dos dados, basta acessar o respectivo repositório.
+- O **objetivo** desse **projeto** foi a **criação e comparação de Modelos de Machine Learning**: Criação de um modelo de machine learning capaz de prever o cancelamento ou não de reservas de hotel. Informação crucial para a administração dos hotéis, facilitando o planejamento das estadias e consequente melhoria da oferta dos serviços além de garantir uma maior segurança no planejamento financeiro.
+- Todas as **considerações, insights e comentários do processo de Machine Learning** podem ser encontrados no **notebook específico** (em markdown) chamado **Hotel Bookings - 0. Parte IV ML- MACHINELEARNING_PROCESS**. Os notebooks posteriores (relacionados ao processo de machine learning) são compostos apenas de código.
+---
+- **TL;DR**:
     - Utilizou-se *class_weight* para lidar com o desbalanceamento de classe.
     - Testou-se a capacidade preditiva com e sem a alteração na cardinalidade da variável *country*. Optou-se por usar o RareLabelEncoder. 
     - Foram utilizados como modelos base: Logistic Regression, Decision Tree e GaussianNB. Posteriormente, utilizou-se modelos ensemble com decision tree como estimador-base (Random Forest, AdaBoost, GradientBossting e XGBoost) que naturalmente obtiveram performances superiores. 
     - Os modelos base iniciais foram comparados entre si, assim como os modelos ensemble. Gráficos de Precision-Recall, Curva ROC, e gráficos de barra das métricas principais: F1-Score, Precision, Recall e Accuracy foram criados para ilustrar a análise.
     - A métrica F1-Score foi a métrica de avaliação considerada como primordial. 
     - Um estimador final (**VotingClassifier**), considerado o ideal, foi construído com base nos ensembles. 
-  
-
-
+---
 
 ### Variáveis presentes:
 
